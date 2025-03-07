@@ -70,7 +70,7 @@ python opensea_collection_scraper.py
 python opensea_nft_details_scraper.py
 ```
 
-The scraped data will be saved in `collection_data.csv` or `nft_details.csv`, depending on the script used.
+The scraped data will be saved in `opensea_nft_collection_data.csv` or `'opensea_nft_data.csv`, depending on the script used.
 
 ## To-Do List
 

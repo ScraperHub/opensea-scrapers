@@ -44,7 +44,7 @@ def scrape_opensea_collection(html_content):
 
     return data
 
-def save_data_to_csv(data, filename='opensea_data.csv'):
+def save_data_to_csv(data, filename='opensea_nft_collection_data.csv'):
     df = pd.DataFrame(data)
     df.to_csv(filename, index=False)
     print(f"Data saved to {filename}")
