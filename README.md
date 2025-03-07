@@ -21,7 +21,7 @@ It also handles pagination to ensure comprehensive data extraction. The extracte
 
 ## OpenSea NFT Detail Page Scraper
 
-The OpenSea NFT Detail Page Scraper (opensea_nft_details_scraper.py) extracts detailed NFT information, including:
+The OpenSea NFT Detail Page Scraper (`opensea_nft_details_scraper.py`) extracts detailed NFT information, including:
 
 - **NFT Tile**
 - **Description**
