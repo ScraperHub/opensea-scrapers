@@ -13,11 +13,11 @@ def make_crawlbase_request(url):
 
     response = crawling_api.get(url, options)
 
-    if response['headers']['pc_status'] == '200':
+    if response['headers']['cb_status'] == '200':
         html_content = response['body'].decode('utf-8')
         return html_content
     else:
-        print(f"Failed to fetch the NFT detail page. Crawlbase status code: {response['headers']['pc_status']}")
+        print(f"Failed to fetch the NFT detail page. Crawlbase status code: {response['headers']['cb_status']}")
         return None
 
 def scrape_opensea_nft_detail(html_content, url):
